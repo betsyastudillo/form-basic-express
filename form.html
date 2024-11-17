@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Formulario</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="titulo">Bienvenido al sistema de registro de usuario</h1>
+    <form action="/registro" method="POST">
+      <label class="item" for="nombre_completo">Nombre completo:</label>
+      <input type="text" name="nombre_completo" id="">
+      <br>
+      <label class="item" for="edad">Edad:</label>
+      <input type="text" name="edad" id="">
+      <br>
+      <label class="item" for="correo_electrónico">Correo electrónico:</label>
+      <input type="text" name="email" id="">
+      <br>
+      <label class="item" for="curso">Curso:</label>
+      <select name="curso" id="">
+        <option value="javascript">JavaScript</option>
+        <option value="nodejs">NodeJS</option>
+        <option value="htmlyCss">HTML y CSS</option>
+      </select>
+      <br>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
